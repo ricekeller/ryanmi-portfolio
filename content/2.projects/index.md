@@ -9,6 +9,7 @@ head.image: 'https://fastly.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rpr
 # Projects
 
 This is the about page, with a custom description and image for SEO :sparkles:
+test
 
 ::icon-card
 ---

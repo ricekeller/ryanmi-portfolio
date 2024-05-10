@@ -1,37 +1,20 @@
-<script lang="ts" setup>
-import { ref } from 'vue';
-
-defineProps({
-  title: {
-    type: String,
-    default: "",
-  }
-})
-
-let show = ref(false);
-
-</script>
-
 <template>
-  <UCard>
-    <template #header>
-      {{title}}
-    </template>
-
-    <Placeholder class="h-32" />
-
-    <template #footer>
-      <Placeholder class="h-8" />
-    </template>
-  </UCard>
+    <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
+        <img class="w-full h-34 object-cover" :src="imageUrl" alt="Card Image">
+        <div class="p-6 ">
+            <h2 class="text-xl font-semibold">{{ title }}</h2>
+            <p class="text-gray-600">{{ description }}</p>
+        </div>
+    </div>
 </template>
 
-<style scoped>
-.tool-icon
-{
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    margin: 5px;
-}
-</style>
+<script setup>
+
+
+defineProps({
+    title: String,
+    description: String,
+    imageUrl: String
+});
+
+</script>

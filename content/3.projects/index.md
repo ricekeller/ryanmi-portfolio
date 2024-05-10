@@ -11,4 +11,4 @@ head.image: 'https://fastly.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rpr
 This is the about page, with a custom description and image for SEO :sparkles:
 test
 
-:ProjectCard{title="test"}
+:ProjectCard{title="Test title" description="long description of the project" imageUrl="https://via.placeholder.com/400x200"}

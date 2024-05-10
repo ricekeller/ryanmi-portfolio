@@ -21,5 +21,6 @@ defineProps({
     width: 40px;
     height: 40px;
     display: inline-block;
+    margin: 5px;
 }
 </style>

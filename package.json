@@ -8,6 +8,7 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
+    "@nuxt/ui": "^2.16.0",
     "content-wind": "latest",
     "nuxt": "latest"
   }
